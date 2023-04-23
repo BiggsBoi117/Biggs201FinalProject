@@ -1,0 +1,78 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 40;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 20;
+}
+
+h3 {
+    text-indent: 25px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: left;
+}
+
+h3:first-line {
+    text-indent: 0;
+}
+
+a {
+    color: rgb(94, 94, 94);
+}
+
+a:visited {
+    color: rgb(22, 22, 81);
+}
+
+ul {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+    color: black;
+}
+
+ol {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24;
+    color: black;
+}
+
+.cover img {
+    display: block;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.bg {
+    background-image: url("../assets/img/skybg.jpg");
+    background-size: cover;
+}
+
+.text {
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+.showcase img {
+    display: inline;
+    padding: 5px;
+    width: 30%;
+}
+
+.space {
+    padding: 10px;
+}
+
+.border {
+    border: 5px solid rgba(211, 211, 211)
+}
